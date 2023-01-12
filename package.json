@@ -1,0 +1,16 @@
+{
+  "name": "railsware-demo",
+  "version": "1.0.0",
+  "description": "compilation",
+  "main": "assets/js/main.js",
+  "scripts": {
+
+    "watch": "node-sass -w --include-path scss assets/css/partials/navigation.scss assets/css/main.css --watch --output-style compressed"
+  },
+  "author": "fortrou",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "*",
+    "sass": "^1.57.1"
+  }
+}
