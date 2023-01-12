@@ -75,6 +75,6 @@ function railsware_set_scripts() {
 	wp_enqueue_script('bootstrap-main', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js', ['jquery']);
 	wp_enqueue_script('bootstrap-main-bundle', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js', ['jquery', 'bootstrap-main']);
 	wp_enqueue_script('main-script', get_template_directory_uri() . '/assets/js/main.js', ['jquery', 'bootstrap-main', 'bootstrap-main-bundle']);
-	wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/main.css');
+	wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/main.css', [], '1.5');
 }
 add_action( 'wp_enqueue_scripts', 'railsware_set_scripts' );
