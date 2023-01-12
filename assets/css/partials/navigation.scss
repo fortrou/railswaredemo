@@ -284,11 +284,14 @@
             }
 
             &.hiring-menu-item {
+              position: relative;
+
               &:hover:after {
                 position: absolute;
                 right: 8px;
-                top: 4px;
+                top: 0px;
                 line-height: 27px;
+                content: ">";
               }
               a{
                 justify-content: flex-start;
