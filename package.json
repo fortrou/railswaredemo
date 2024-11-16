@@ -4,13 +4,11 @@
   "description": "compilation",
   "main": "assets/js/main.js",
   "scripts": {
-
-    "watch": "node-sass -w --include-path scss assets/css/partials/navigation.scss assets/css/main.css --watch --output-style compressed"
+    "watch": "sass --watch assets/css/partials/navigation.scss assets/css/main.css --style=compressed"
   },
   "author": "fortrou",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "*",
-    "sass": "^1.57.1"
+    "sass": "^1.80.7"
   }
 }
